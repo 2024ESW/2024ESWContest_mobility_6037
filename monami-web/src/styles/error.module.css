@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f4f4f4;
+  border-radius: 0.8rem;
+}
+
+.title {
+  font-size: 48px;
+  color: #012a52;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.message {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.link {
+  font-size: 16px;
+  color: #ffbf00;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #012a52;
+  border-radius: 5px;
+  color: white;
+}
+
+.link:hover {
+  background-color: #ffbf00;
+  color: #012a52;
+}

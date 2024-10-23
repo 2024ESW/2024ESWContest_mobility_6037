@@ -1,0 +1,16 @@
+{
+  "name": "우결",
+  "short_name": "우결",
+  "description": "새로운 차량 결제 패러다임, 우결",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#002E6B",
+  "background_color": "#002E6B"
+}

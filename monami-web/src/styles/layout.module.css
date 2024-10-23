@@ -1,0 +1,18 @@
+.layoutContainer {
+  display: flex;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 2.4rem;
+  background-color: #f4f4f4;
+  max-height: calc(100% - 6rem);
+}

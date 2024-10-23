@@ -1,0 +1,40 @@
+.card {
+  border: 1px solid #eaeaea;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  background-color: white;
+}
+
+.link {
+  display: block;
+  height: 100%;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+
+.image {
+  width: 100%;
+  height: calc(100% - 4.5rem);
+  opacity: 0.6;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #012a52;
+  padding: 15px;
+}
+
+.errorPlaceholder {
+  width: 100%;
+  height: calc(100% - 4.5rem);
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}

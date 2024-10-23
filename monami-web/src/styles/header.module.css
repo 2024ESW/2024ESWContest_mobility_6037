@@ -1,0 +1,32 @@
+.header {
+  background-color: #fff;
+  padding: 1rem 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  height: 6rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 2.4rem;
+  color: #012a52;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.link {
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  color: #012a52;
+  text-decoration: none;
+}
+
+.link:last-child {
+  margin-right: 0;
+}
